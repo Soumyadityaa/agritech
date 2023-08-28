@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crop Management - AgriTech Platform</title>
+  <link rel="stylesheet" href="css/cr_mang_styles.css">
+  <link rel="website icon" type="png" href="img/logo.png">
+</head>
+<body>
+  <header>
+    <h1>AgriTech Platform</h1>
+    <img src="img/logo.png" width="60">
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="#">Crop Management</a></li>
+        <!-- Add more navigation links here -->
+      </ul>
+    </nav>
+
+  <main>
+    <section id="crop-management">
+      <h2>Crop Management</h2>
+      <div id="crop-list">
+        <!-- Display list of crops -->
+      </div>
+      <section class="add_form">
+        <form id="add-crop-form">
+          <h3>Add New Crop</h3><br><br>
+          <label for="crop-name">Crop Name:</label>
+          <input type="text" id="crop-name" name="cropName" required>
+          <label for="growth-stage">Growth Stage:</label>
+          <select id="growth-stage" name="growthStage">
+            <option value="seeding">Seeding</option>
+            <option value="germination">Germination</option>
+            <option value="vegetative">Vegetative</option>
+            <option value="flowering">Flowering</option>
+            <option value="fruiting">Fruiting</option>
+            <option value="harvest">Harvest</option>
+          </select><br><br>
+          <button type="submit" class="add">Add Crop</button>
+        </form>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 AgriTech Platform. All rights reserved. and created by Soumyaa</p>
+  </footer>
+  <script src="js/cr_mang_script.js"></script>
+</body>
+</html>

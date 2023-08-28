@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile - AgriTech Platform</title>
+  <link rel="stylesheet" href="css/profile_styles.css">
+  <link rel="website icon" type="png" href="img/profile.png">
+</head>
+<body>
+  <header>
+    <h1>AgriTech Platform</h1>
+    <img src="img/logo.png" width="60">
+  </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="#">Profile</a></li>
+        <!-- Add more navigation links here -->
+      </ul>
+    </nav>
+
+  <main>
+    <section id="user-profile">
+      <img src="img/profile.png" width="60">
+       <h2>User Profile</h2>
+      <form id="profile-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="farm-name">Farm Name:</label>
+        <input type="text" id="farm-name" name="farmName">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+        <label for="crops">Crops:</label>
+        <input type="text" id="crops" name="crops">
+        <!-- Add more input fields for preferences, connected devices, etc. -->
+        <button type="submit">Save Profile</button>
+      </form>
+      <div class="activity" id="activity-history">
+        <!-- Display user's activity history using JavaScript -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 AgriTech Platform. All rights reserved. and created by Soumyaa</p>
+  </footer>
+  <script src="js/profile_script.js"></script>
+</body>
+</html>
